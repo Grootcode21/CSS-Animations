@@ -1,0 +1,26 @@
+ul {
+    font-family: "Chivo mono", monospace;
+    display: flex;
+    gap: 72px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8f2c8f;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+ul:hover li a {
+    color: aqua;
+}
+
+ul:hover li a:not(:hover) {
+    color: black;
+    filter: blur(1px);
+}
