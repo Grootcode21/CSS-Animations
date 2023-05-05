@@ -49,6 +49,9 @@
 
 .text {
     color: #539bdb;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-weight: bolder;
 }
