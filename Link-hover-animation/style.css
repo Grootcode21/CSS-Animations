@@ -24,3 +24,9 @@ ul:hover li a:not(:hover) {
     color: black;
     filter: blur(1px);
 }
+
+.biography 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
