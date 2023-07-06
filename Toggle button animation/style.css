@@ -25,3 +25,7 @@ label {
     align-items: center;
 }
 
+input {
+    position: absolute;
+}
+
