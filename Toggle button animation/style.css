@@ -36,7 +36,9 @@ input {
     color: #666;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
 }
-
+input:checked~.moon {
+    transform: rotate(360deg) scale(0);
+}
 .toggle {
     position: absolute;
     display: block;
