@@ -44,6 +44,11 @@ input {
     font-size: 3em;
     color: #666;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+    transform: scale(0);
+}
+
+input:checked~.sun {
+    transform: rotate(360deg) scale(1);
 }
 .moon {
     font-size: 3em;
