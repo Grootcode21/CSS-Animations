@@ -49,6 +49,7 @@ input {
 }
 
 input:checked~.sun {
+    transition-delay: .9s;
     transform:  scale(1) rotate(360deg);
 }
 .moon {
@@ -56,8 +57,10 @@ input:checked~.sun {
     color: #666;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
     transition: 1s ease;
+    transition-delay: .9s;
 }
 input:checked~.moon {
+    transition-delay: 0s;
     transform: rotate(360deg) scale(0);
 }
 .toggle {
