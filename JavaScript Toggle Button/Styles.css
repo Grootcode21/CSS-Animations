@@ -37,6 +37,7 @@ body.active {
                 inset 0 2px 8px rgba(0, 0, 0, 0.1),
                 inset 0 -4px 4px rgba(0, 0, 0, 0.05),;
 }
+
 #toggle .indicator {
     position: absolute;
     top: 0;
