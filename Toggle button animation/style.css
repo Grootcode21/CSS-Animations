@@ -53,6 +53,7 @@ input:checked~.sun {
     transition-delay: .9s;
     transform:  scale(1) rotate(360deg);
 }
+
 .moon {
     font-size: 3em;
     color: #666;
@@ -64,6 +65,7 @@ input:checked~.moon {
     transition-delay: 0s;
     transform: rotate(360deg) scale(0);
 }
+
 .toggle {
     position: absolute;
     display: block;
